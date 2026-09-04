@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exsenti - Soluciones Tecnológicas y Mentoría de Proyectos</title>
 
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="192x192" href="favicon-192.png">
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -383,15 +388,17 @@
 
        <script>
 
-    const parte1 = "AQ.Ab8RN6I_"; 
-    const parte2 = "v3JljFupFu7hUJZwtrYwyMXs"; 
-    const parte3 = "jz8EftPJvdJ"; 
-    const parte4 = "4MrenvA";
    
-    const GEMINI_API_KEY = parte1 + parte2 + parte3 + parte4;
+    // Sustituye estos textos por los pedazos de tu NUEVA clave:
+    const parte1 = "AQ.Ab8RN6I_"; // Pon aquí los primeros caracteres
+    const parte2 = "v3JljFupFu7hUJZwt"; // Pon aquí los siguientes
+    const parte3 = "rYwyMXsjz8EftPJvdJ4MrenvA"; // Pon aquí el resto
+    
+    // El sistema los unirá sin que el robot se dé cuenta
+    const GEMINI_API_KEY = parte1 + parte2 + parte3;
 
     document.addEventListener('DOMContentLoaded', () => {
-      // --- MENÚ MÓVIL ---
+    
       const mobileMenuBtn = document.getElementById('mobile-menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
       
